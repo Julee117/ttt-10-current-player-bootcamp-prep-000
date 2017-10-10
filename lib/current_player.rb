@@ -3,9 +3,9 @@ def turn_count(board)
   board.each do |spot|
     if spot == "O" || spot == "X"
       count += 1
-    end 
-  end 
+    end
+  end
   count
 end
 
-def current_player()
+
